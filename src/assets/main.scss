@@ -1,0 +1,24 @@
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';
+
+.navbar-start {
+  flex-grow: 1;
+
+  .navbar-item {
+    flex-grow: 1;
+
+    .control {
+      width: 100%;
+    }
+  }
+}
+
+.b-tabs {
+  &.is-vertical {
+    flex-wrap: nowrap;
+  }
+}
